@@ -36,7 +36,7 @@ async def add_city(request: Request, city: str = Form(...)):
         if r.get('cod') == 200:
             weather_data = {
                 'city': city,
-                'temperature': round(r['main']['temp']),
+                'temperature': round((r['main']['temp'] - 32) * 5/9),
                 'description': r['weather'][0]['description'].capitalize(),
                 'icon': r['weather'][0]['icon'],
                 'humidity': r['main']['humidity'],
