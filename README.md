@@ -1,6 +1,6 @@
 # Weatherly
 
-Weatherly is a modern, user-friendly weather application built with Flask that allows users to check weather conditions for multiple cities with a beautiful and intuitive interface.
+Weatherly is a modern, user-friendly weather application built with FastAPI that allows users to check weather conditions for multiple cities with a beautiful and intuitive interface.
 
 ## Features
 
@@ -108,4 +108,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Weather data provided by OpenWeatherMap
 - Icons and design elements from DaisyUI
-- Built with Flask and Tailwind CSS 
+- Built with FastAPI and Tailwind CSS 
