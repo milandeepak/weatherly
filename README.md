@@ -60,7 +60,8 @@ Weatherly is a modern, user-friendly weather application built with FastAPI that
      ```
 5. Run the application:
    ```bash
-   python app.py
+   uvicorn app:app
+  
    ```
 
 ## Usage
